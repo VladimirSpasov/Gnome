@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1605FB22F3ACBC99819DC5E3 /* Pods_Gnome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF2F808432F2E1A62F966EF /* Pods_Gnome.framework */; };
+		3DABC0EA1FB5A59800772884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC0E91FB5A59800772884 /* AppDelegate.swift */; };
+		3DABC0F11FB5A59800772884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC0F01FB5A59800772884 /* Assets.xcassets */; };
+		3DABC0F41FB5A59800772884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC0F21FB5A59800772884 /* LaunchScreen.storyboard */; };
+		3DABC0FF1FB5A59800772884 /* GnomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC0FE1FB5A59800772884 /* GnomeTests.swift */; };
+		3DABC10A1FB5A7AD00772884 /* GnomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1091FB5A7AD00772884 /* GnomeAPI.swift */; };
+		3DABC1101FB5A81300772884 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC10F1FB5A81300772884 /* Gnome.swift */; };
+		3DABC1271FB5A87B00772884 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1111FB5A87B00772884 /* DetailViewController.swift */; };
+		3DABC1281FB5A87B00772884 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1131FB5A87B00772884 /* UICollectionView.swift */; };
+		3DABC1291FB5A87B00772884 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1141FB5A87B00772884 /* UIEdgeInsets.swift */; };
+		3DABC12A1FB5A87B00772884 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1151FB5A87B00772884 /* UIFont.swift */; };
+		3DABC12B1FB5A87B00772884 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1161FB5A87B00772884 /* UITableView.swift */; };
+		3DABC12C1FB5A87B00772884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC1171FB5A87B00772884 /* Main.storyboard */; };
+		3DABC12D1FB5A87B00772884 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1181FB5A87B00772884 /* MainViewController.swift */; };
+		3DABC1301FB5A87B00772884 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC11C1FB5A87B00772884 /* Roboto-Bold.ttf */; };
+		3DABC1311FB5A87B00772884 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC11D1FB5A87B00772884 /* Roboto-Medium.ttf */; };
+		3DABC1321FB5A87B00772884 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC11E1FB5A87B00772884 /* Roboto-Regular.ttf */; };
+		3DABC1341FB5A87B00772884 /* DemoElongationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1221FB5A87B00772884 /* DemoElongationCell.swift */; };
+		3DABC1351FB5A87B00772884 /* DemoElongationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC1231FB5A87B00772884 /* DemoElongationCell.xib */; };
+		3DABC1361FB5A87B00772884 /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC1251FB5A87B00772884 /* GridViewCell.swift */; };
+		3DABC1371FB5A87B00772884 /* GridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC1261FB5A87B00772884 /* GridViewCell.xib */; };
+		44A3422AB7770C4599D828C2 /* Pods_GnomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689AD7D38F639B26626A8EE7 /* Pods_GnomeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DABC0FB1FB5A59800772884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DABC0DE1FB5A59800772884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DABC0E51FB5A59800772884;
+			remoteInfo = Gnome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DABC0E61FB5A59800772884 /* Gnome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gnome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DABC0E91FB5A59800772884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DABC0F01FB5A59800772884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DABC0F31FB5A59800772884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DABC0F51FB5A59800772884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DABC0FA1FB5A59800772884 /* GnomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DABC0FE1FB5A59800772884 /* GnomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeTests.swift; sourceTree = "<group>"; };
+		3DABC1001FB5A59800772884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DABC1091FB5A7AD00772884 /* GnomeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeAPI.swift; sourceTree = "<group>"; };
+		3DABC10F1FB5A81300772884 /* Gnome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
+		3DABC1111FB5A87B00772884 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3DABC1131FB5A87B00772884 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		3DABC1141FB5A87B00772884 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
+		3DABC1151FB5A87B00772884 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		3DABC1161FB5A87B00772884 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		3DABC1171FB5A87B00772884 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3DABC1181FB5A87B00772884 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3DABC11C1FB5A87B00772884 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3DABC11D1FB5A87B00772884 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		3DABC11E1FB5A87B00772884 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3DABC1221FB5A87B00772884 /* DemoElongationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoElongationCell.swift; sourceTree = "<group>"; };
+		3DABC1231FB5A87B00772884 /* DemoElongationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoElongationCell.xib; sourceTree = "<group>"; };
+		3DABC1251FB5A87B00772884 /* GridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		3DABC1261FB5A87B00772884 /* GridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewCell.xib; sourceTree = "<group>"; };
+		65DC69656427EB48A3E1E619 /* Pods-Gnome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gnome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gnome/Pods-Gnome.debug.xcconfig"; sourceTree = "<group>"; };
+		689AD7D38F639B26626A8EE7 /* Pods_GnomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GnomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D03C4E1D45D0DD2D9E0741 /* Pods-GnomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GnomeTests/Pods-GnomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAF2F808432F2E1A62F966EF /* Pods_Gnome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gnome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EBE22D0546FB11DB34898F /* Pods-Gnome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gnome.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gnome/Pods-Gnome.release.xcconfig"; sourceTree = "<group>"; };
+		F427696598E1ACCB546821F1 /* Pods-GnomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GnomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GnomeTests/Pods-GnomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DABC0E31FB5A59800772884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1605FB22F3ACBC99819DC5E3 /* Pods_Gnome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DABC0F71FB5A59800772884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A3422AB7770C4599D828C2 /* Pods_GnomeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DABC0DD1FB5A59800772884 = {
+			isa = PBXGroup;
+			children = (
+				3DABC0E81FB5A59800772884 /* Gnome */,
+				3DABC0FD1FB5A59800772884 /* GnomeTests */,
+				3DABC0E71FB5A59800772884 /* Products */,
+				520F6E0DC4F45E55A0F07703 /* Pods */,
+				C2E158D215CD5A410F435793 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DABC0E71FB5A59800772884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC0E61FB5A59800772884 /* Gnome.app */,
+				3DABC0FA1FB5A59800772884 /* GnomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DABC0E81FB5A59800772884 /* Gnome */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC0E91FB5A59800772884 /* AppDelegate.swift */,
+				3DABC1091FB5A7AD00772884 /* GnomeAPI.swift */,
+				3DABC1121FB5A87B00772884 /* Extensions */,
+				3DABC1191FB5A87B00772884 /* Resources */,
+				3DABC10B1FB5A7D700772884 /* Models */,
+				3DABC1201FB5A87B00772884 /* Views */,
+				3DABC10E1FB5A7FB00772884 /* Controllers */,
+				3DABC0F01FB5A59800772884 /* Assets.xcassets */,
+				3DABC1171FB5A87B00772884 /* Main.storyboard */,
+				3DABC0F21FB5A59800772884 /* LaunchScreen.storyboard */,
+				3DABC0F51FB5A59800772884 /* Info.plist */,
+			);
+			path = Gnome;
+			sourceTree = "<group>";
+		};
+		3DABC0FD1FB5A59800772884 /* GnomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC0FE1FB5A59800772884 /* GnomeTests.swift */,
+				3DABC1001FB5A59800772884 /* Info.plist */,
+			);
+			path = GnomeTests;
+			sourceTree = "<group>";
+		};
+		3DABC10B1FB5A7D700772884 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC10F1FB5A81300772884 /* Gnome.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3DABC10E1FB5A7FB00772884 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC1181FB5A87B00772884 /* MainViewController.swift */,
+				3DABC1111FB5A87B00772884 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3DABC1121FB5A87B00772884 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC1131FB5A87B00772884 /* UICollectionView.swift */,
+				3DABC1141FB5A87B00772884 /* UIEdgeInsets.swift */,
+				3DABC1151FB5A87B00772884 /* UIFont.swift */,
+				3DABC1161FB5A87B00772884 /* UITableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3DABC1191FB5A87B00772884 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC11C1FB5A87B00772884 /* Roboto-Bold.ttf */,
+				3DABC11D1FB5A87B00772884 /* Roboto-Medium.ttf */,
+				3DABC11E1FB5A87B00772884 /* Roboto-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3DABC1201FB5A87B00772884 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC1211FB5A87B00772884 /* DemoElongationCell */,
+				3DABC1241FB5A87B00772884 /* GridViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DABC1211FB5A87B00772884 /* DemoElongationCell */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC1221FB5A87B00772884 /* DemoElongationCell.swift */,
+				3DABC1231FB5A87B00772884 /* DemoElongationCell.xib */,
+			);
+			path = DemoElongationCell;
+			sourceTree = "<group>";
+		};
+		3DABC1241FB5A87B00772884 /* GridViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3DABC1251FB5A87B00772884 /* GridViewCell.swift */,
+				3DABC1261FB5A87B00772884 /* GridViewCell.xib */,
+			);
+			path = GridViewCell;
+			sourceTree = "<group>";
+		};
+		520F6E0DC4F45E55A0F07703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65DC69656427EB48A3E1E619 /* Pods-Gnome.debug.xcconfig */,
+				E8EBE22D0546FB11DB34898F /* Pods-Gnome.release.xcconfig */,
+				F427696598E1ACCB546821F1 /* Pods-GnomeTests.debug.xcconfig */,
+				A1D03C4E1D45D0DD2D9E0741 /* Pods-GnomeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2E158D215CD5A410F435793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF2F808432F2E1A62F966EF /* Pods_Gnome.framework */,
+				689AD7D38F639B26626A8EE7 /* Pods_GnomeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DABC0E51FB5A59800772884 /* Gnome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DABC1031FB5A59800772884 /* Build configuration list for PBXNativeTarget "Gnome" */;
+			buildPhases = (
+				FF07AFA8C8D7EEB7F7410A81 /* [CP] Check Pods Manifest.lock */,
+				3DABC0E21FB5A59800772884 /* Sources */,
+				3DABC0E31FB5A59800772884 /* Frameworks */,
+				3DABC0E41FB5A59800772884 /* Resources */,
+				9BA1D5DC4522A59185103CB5 /* [CP] Embed Pods Frameworks */,
+				F38DBEA33D542287EF0E0304 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gnome;
+			productName = Gnome;
+			productReference = 3DABC0E61FB5A59800772884 /* Gnome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DABC0F91FB5A59800772884 /* GnomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DABC1061FB5A59800772884 /* Build configuration list for PBXNativeTarget "GnomeTests" */;
+			buildPhases = (
+				482734598CC8199FE91A9CD5 /* [CP] Check Pods Manifest.lock */,
+				3DABC0F61FB5A59800772884 /* Sources */,
+				3DABC0F71FB5A59800772884 /* Frameworks */,
+				3DABC0F81FB5A59800772884 /* Resources */,
+				50AAEFDEB19AF0EDD6017312 /* [CP] Embed Pods Frameworks */,
+				8A952BA0CE4562A6F8718FCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DABC0FC1FB5A59800772884 /* PBXTargetDependency */,
+			);
+			name = GnomeTests;
+			productName = GnomeTests;
+			productReference = 3DABC0FA1FB5A59800772884 /* GnomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DABC0DE1FB5A59800772884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vladimir;
+				TargetAttributes = {
+					3DABC0E51FB5A59800772884 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E2CC2L47WB;
+						ProvisioningStyle = Automatic;
+					};
+					3DABC0F91FB5A59800772884 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E2CC2L47WB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DABC0E51FB5A59800772884;
+					};
+				};
+			};
+			buildConfigurationList = 3DABC0E11FB5A59800772884 /* Build configuration list for PBXProject "Gnome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DABC0DD1FB5A59800772884;
+			productRefGroup = 3DABC0E71FB5A59800772884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DABC0E51FB5A59800772884 /* Gnome */,
+				3DABC0F91FB5A59800772884 /* GnomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DABC0E41FB5A59800772884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DABC1311FB5A87B00772884 /* Roboto-Medium.ttf in Resources */,
+				3DABC1301FB5A87B00772884 /* Roboto-Bold.ttf in Resources */,
+				3DABC1371FB5A87B00772884 /* GridViewCell.xib in Resources */,
+				3DABC0F41FB5A59800772884 /* LaunchScreen.storyboard in Resources */,
+				3DABC0F11FB5A59800772884 /* Assets.xcassets in Resources */,
+				3DABC1321FB5A87B00772884 /* Roboto-Regular.ttf in Resources */,
+				3DABC1351FB5A87B00772884 /* DemoElongationCell.xib in Resources */,
+				3DABC12C1FB5A87B00772884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DABC0F81FB5A59800772884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		482734598CC8199FE91A9CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50AAEFDEB19AF0EDD6017312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GnomeTests/Pods-GnomeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A952BA0CE4562A6F8718FCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GnomeTests/Pods-GnomeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA1D5DC4522A59185103CB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gnome/Pods-Gnome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38DBEA33D542287EF0E0304 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gnome/Pods-Gnome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF07AFA8C8D7EEB7F7410A81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DABC0E21FB5A59800772884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DABC1281FB5A87B00772884 /* UICollectionView.swift in Sources */,
+				3DABC1291FB5A87B00772884 /* UIEdgeInsets.swift in Sources */,
+				3DABC1361FB5A87B00772884 /* GridViewCell.swift in Sources */,
+				3DABC1101FB5A81300772884 /* Gnome.swift in Sources */,
+				3DABC12A1FB5A87B00772884 /* UIFont.swift in Sources */,
+				3DABC1341FB5A87B00772884 /* DemoElongationCell.swift in Sources */,
+				3DABC12B1FB5A87B00772884 /* UITableView.swift in Sources */,
+				3DABC1271FB5A87B00772884 /* DetailViewController.swift in Sources */,
+				3DABC10A1FB5A7AD00772884 /* GnomeAPI.swift in Sources */,
+				3DABC0EA1FB5A59800772884 /* AppDelegate.swift in Sources */,
+				3DABC12D1FB5A87B00772884 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DABC0F61FB5A59800772884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DABC0FF1FB5A59800772884 /* GnomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DABC0FC1FB5A59800772884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DABC0E51FB5A59800772884 /* Gnome */;
+			targetProxy = 3DABC0FB1FB5A59800772884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DABC0F21FB5A59800772884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DABC0F31FB5A59800772884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DABC1011FB5A59800772884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DABC1021FB5A59800772884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DABC1041FB5A59800772884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DC69656427EB48A3E1E619 /* Pods-Gnome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = Gnome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.Gnome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DABC1051FB5A59800772884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8EBE22D0546FB11DB34898F /* Pods-Gnome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = Gnome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.Gnome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DABC1071FB5A59800772884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F427696598E1ACCB546821F1 /* Pods-GnomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = GnomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.GnomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gnome.app/Gnome";
+			};
+			name = Debug;
+		};
+		3DABC1081FB5A59800772884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D03C4E1D45D0DD2D9E0741 /* Pods-GnomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E2CC2L47WB;
+				INFOPLIST_FILE = GnomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vsd.GnomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gnome.app/Gnome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DABC0E11FB5A59800772884 /* Build configuration list for PBXProject "Gnome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DABC1011FB5A59800772884 /* Debug */,
+				3DABC1021FB5A59800772884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DABC1031FB5A59800772884 /* Build configuration list for PBXNativeTarget "Gnome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DABC1041FB5A59800772884 /* Debug */,
+				3DABC1051FB5A59800772884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DABC1061FB5A59800772884 /* Build configuration list for PBXNativeTarget "GnomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DABC1071FB5A59800772884 /* Debug */,
+				3DABC1081FB5A59800772884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DABC0DE1FB5A59800772884 /* Project object */;
+}
