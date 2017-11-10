@@ -24,11 +24,6 @@ class DemoElongationCell: ElongationCell {
   @IBOutlet var topImageViewTopConstraint: NSLayoutConstraint!
 
     func setUpWith(gnome: Gnome){
-        let attributedName = NSMutableAttributedString(string: (gnome.name?.uppercased())!, attributes: [
-            NSFontAttributeName: UIFont.robotoFont(ofSize: 20, weight: .medium),
-            NSKernAttributeName: 8.2,
-            NSForegroundColorAttributeName: UIColor.white
-            ])
 
         self.topImageView.af_setImage(withURL: URL(string: gnome.thumbnail!.replacingOccurrences(of: "http", with: "https"))!)
 

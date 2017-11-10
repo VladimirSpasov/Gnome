@@ -131,7 +131,7 @@ private extension MainViewController {
 
 
 // MARK: - TableView 📚
-extension MainViewController: UITableViewDataSource {
+extension MainViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return searchResults.count
@@ -143,7 +143,7 @@ extension MainViewController: UITableViewDataSource {
     }
 }
 
-extension MainViewController: UITableViewDelegate {
+extension MainViewController {
 
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         super.tableView(tableView, willDisplay: cell, forRowAt: indexPath)
@@ -168,12 +168,13 @@ extension MainViewController: UISearchBarDelegate {
         UIView.animate(withDuration: 0.5) { 
             self.searchBar.frame.origin.x -= self.view.frame.width
             self.toggleSearchBarButton.alpha = 1
+            self.searchBar.resignFirstResponder()
         }
     }
 }
 
 // MARK: - ScrollView 🔍
-extension MainViewController: UIScrollViewDelegate {
+extension MainViewController {
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
         toggleSearchBarButton.transform = CGAffineTransform(translationX: 0, y: self.tableView.contentOffset.y)
         searchBar.transform = CGAffineTransform(translationX: 0, y: self.tableView.contentOffset.y)
