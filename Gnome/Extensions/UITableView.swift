@@ -31,3 +31,9 @@ public extension UITableView {
   }
 
 }
+
+public extension UITableView {
+    func reloadData(with animation: UITableViewRowAnimation) {
+        reloadSections(IndexSet(integersIn: 0..<numberOfSections), with: animation)
+    }
+}

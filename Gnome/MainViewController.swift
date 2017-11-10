@@ -94,8 +94,6 @@ private extension MainViewController {
         searchBar.delegate = self
         searchBar.showsCancelButton = true
 
-//        let cancelButtonAttributes: [String: AnyObject] = [NSForegroundColorAttributeName: UIColor.white]
-//        UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self]).setTitleTextAttributes(cancelButtonAttributes, for: .normal)
 
         let image = UIImage(named: "CancelSearch")?.af_imageScaled(to: CGSize(width: 22.0, height: 22.0))
         UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self]).image = image
@@ -133,7 +131,7 @@ private extension MainViewController {
 
 
 // MARK: - TableView 📚
-extension MainViewController {
+extension MainViewController: UITableViewDataSource {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return searchResults.count
@@ -143,6 +141,9 @@ extension MainViewController {
         let cell = tableView.dequeue(DemoElongationCell.self)
         return cell
     }
+}
+
+extension MainViewController: UITableViewDelegate {
 
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         super.tableView(tableView, willDisplay: cell, forRowAt: indexPath)
@@ -152,8 +153,8 @@ extension MainViewController {
 
         cell.setUpWith(gnome: gnome)
     }
-    
 }
+
 
 // MARK: - UISearchBarDelegate 🔍
 extension MainViewController: UISearchBarDelegate {
@@ -172,17 +173,12 @@ extension MainViewController: UISearchBarDelegate {
 }
 
 // MARK: - ScrollView 🔍
-extension MainViewController {
+extension MainViewController: UIScrollViewDelegate {
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
         toggleSearchBarButton.transform = CGAffineTransform(translationX: 0, y: self.tableView.contentOffset.y)
         searchBar.transform = CGAffineTransform(translationX: 0, y: self.tableView.contentOffset.y)
     }
 }
 
-extension UITableView {
-    func reloadData(with animation: UITableViewRowAnimation) {
-        reloadSections(IndexSet(integersIn: 0..<numberOfSections), with: animation)
-    }
-}
 
 
